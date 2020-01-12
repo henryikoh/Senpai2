@@ -35,7 +35,7 @@
 						>
 							<h1>Tell us about your crazy idea</h1>
 							<!-- <p>fill this form and we would get back to you</p> -->
-							<input type="hidden" name="bot-field" />
+						  <input type="hidden" name="form-name" value="contact" />
 							<div>
 								<div class="form-group">
 									<input

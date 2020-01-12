@@ -1461,7 +1461,7 @@ import Contact from '~/components/Contact-form.vue'
 import Footer from '~/components/Footer.vue'
 import client from '~/plugins/contentful'
 
-Vue.use(VueTypedJs)
+
 
 // const client = createClient()
 
@@ -1507,6 +1507,7 @@ export default {
 		if (process.browser) {
 			// eslint-disable-next-line nuxt/no-globals-in-created
 			window.addEventListener('scroll', this.handleScroll)
+			Vue.use(VueTypedJs)
 		}
 	},
 	destroyed() {
